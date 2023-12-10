@@ -37,8 +37,8 @@ Tab.add(T3, text='ทะเบียนใบเสร็จ', image=icon_tab3, 
 F = Frame(T1)
 F.pack()
 
-T1_header_name = ['รหัสสินค้า', 'ชื่อ', 'รหัสราคา', 'ราคา', 'บาร์โค้ด']
-T1_header_width = [200, 400, 100, 100, 400]
+T1_header_name = ['บาร์โค้ด', 'ชื่อ', 'รหัสราคา', 'ราคา']
+T1_header_width = [200, 400, 100, 100]
 style.configure('Treeview.Heading', font=('angsana new', '48'))
 style.configure('Treeview.Column', font=('angsana new', '16'))
 T1_table = ttk.Treeview(F, columns=T1_header_name, show='headings', height=20)
